@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2414" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Utilisateur" vertex="1">
+          <mxGeometry height="740" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Frontend&#xa;(React)" vertex="1">
+          <mxGeometry height="740" width="150" x="283" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Supabase Auth" vertex="1">
+          <mxGeometry height="740" width="150" x="732" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PostgreSQL" vertex="1">
+          <mxGeometry height="740" width="150" x="1162" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-5" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-2" value="Saisit email + mot de passe">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="235" y="127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-6" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-3" value="supabase.auth.signInWithPassword({email, password})">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="591" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-7" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-4" value="Vérifie credentials (auth.users)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="231" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-8" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-3" value="Utilisateur trouvé">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1034" y="283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-9" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-4" value="Lit user_roles">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1031" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-10" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-3" value="Rôle retourné (client | provider | developer | admin)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1034" y="387" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-11" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-2" value="Session JWT + user object">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="594" y="439" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-12" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-2" style="curved=1;endArrow=block;rounded=0;" target="HrYUS0O1HWpW0EUNK8CI-2" value="Stocke session (Zustand)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="409" y="491" />
+              <mxPoint x="409" y="521" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-13" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-2" style="curved=1;endArrow=block;rounded=0;" target="HrYUS0O1HWpW0EUNK8CI-2" value="Redirige vers dashboard selon le rôle">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="409" y="573" />
+              <mxPoint x="409" y="603" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrYUS0O1HWpW0EUNK8CI-14" edge="1" parent="1" source="HrYUS0O1HWpW0EUNK8CI-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="HrYUS0O1HWpW0EUNK8CI-1" value="Dashboard affiché">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="238" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
