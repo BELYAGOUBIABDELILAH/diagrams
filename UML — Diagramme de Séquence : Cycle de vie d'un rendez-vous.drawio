@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="3018" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ipuQiXt_5knODLfY7yjF-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Client" vertex="1">
+          <mxGeometry height="992" width="35" x="20" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Provider" vertex="1">
+          <mxGeometry height="992" width="35" x="220" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Frontend" vertex="1">
+          <mxGeometry height="992" width="150" x="420" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="appointmentService" vertex="1">
+          <mxGeometry height="992" width="161" x="790" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Supabase DB" vertex="1">
+          <mxGeometry height="992" width="150" x="1189" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="notificationService" vertex="1">
+          <mxGeometry height="992" width="150" x="1389" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-7" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-3" value="Sélectionne créneau + provider">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="304" y="287" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-8" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-4" value="createAppointment(providerId, date, motif)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="691" y="339" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-9" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-5" value="INSERT INTO appointments (statut=&#39;pending&#39;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-10" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-4" value="RDV créé (id)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="443" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-11" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-6" value="sendBookingConfirmation(patientEmail)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1176" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-12" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-1" value="Email de confirmation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-13" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-3" value="Consulte planning">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="599" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-14" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-4" value="getAppointments(providerId)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="691" y="651" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-15" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-5" value="SELECT WHERE provider_id = X">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="703" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-16" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-3" value="Liste des RDV en attente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="891" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-17" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-3" value="Confirme le RDV">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="404" y="807" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-18" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-4" value="updateAppointment(id, statut=&#39;confirmed&#39;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="691" y="859" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-19" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-5" value="UPDATE appointments SET statut=&#39;confirmed&#39;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1076" y="911" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-20" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-4" value="OK">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="963" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-21" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-6" value="sendStatusUpdate(patientEmail, &#39;confirmed&#39;)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1176" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ipuQiXt_5knODLfY7yjF-22" edge="1" parent="1" source="ipuQiXt_5knODLfY7yjF-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="ipuQiXt_5knODLfY7yjF-1" value="Notification temps réel (Supabase Realtime)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="1067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
